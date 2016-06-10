@@ -1,0 +1,20 @@
+buildscript{
+	repositories{
+		jcenter()
+	}
+	
+	dependencies{
+		classpath 'com.android.tools.build:gradle:2.1.0'
+	}
+}
+
+apply plugin: 'com.android.application'
+	
+android{
+	compileSdkVersion 22
+	buildToolsVersion "22.0.1"
+}
+
+task wrapper(type: Wrapper){
+	gradleVersion = '2.10'
+}
