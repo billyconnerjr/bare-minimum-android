@@ -15,7 +15,7 @@ public class MainActivity extends Activity{
 	public void onStart(){
 		super.onStart();
 		TextView textView = (TextView) findViewById(R.id.text_view);
-		textView.setText("Your Android App is running fine!");
+		textView.setText("Hello from Pittsburgh TechFest 2016!");
 	}
 	
 }
