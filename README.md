@@ -1,6 +1,6 @@
 # Bare Minimum Android App
 ---
-###Getting started
+### Getting started
 
 Use the Gradle wrapper to ensure you have the correct version of Gradle:
 
